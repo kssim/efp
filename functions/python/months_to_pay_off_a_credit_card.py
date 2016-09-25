@@ -45,4 +45,4 @@ if __name__ == '__main__':
         print ('You have entered an invalid value.')
     else:
         months_numbers = calculateMonthsUntilPaidOff(balance, apr_rate, monthly_payment)
-        print ('It will take you %s months to pay off this card.') % months_numbers
+        print ('It will take you %s months to pay off this card.' % str(months_numbers))

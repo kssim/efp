@@ -31,6 +31,6 @@ if __name__ == '__main__':
 
     result = isAnagram(first_str, second_str)
     if result == True:
-        print ('\"%s\" and \"%s\" are anagrams.') % (first_str, second_str)
+        print ('\"%s\" and \"%s\" are anagrams.' % (first_str, second_str))
     else:
-        print ('\"%s\" and \"%s\" are not anagrams.') % (first_str, second_str)
+        print ('\"%s\" and \"%s\" are not anagrams.' % (first_str, second_str))

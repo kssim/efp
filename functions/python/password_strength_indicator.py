@@ -58,12 +58,12 @@ if __name__ == '__main__':
 
     result = passwordValidator(password)
     if result == VERY_WEEK_PWD:
-        print ('The password \'%s\' is a very weak password.') % password
+        print ('The password \'%s\' is a very weak password.' % password)
     elif result == WEEK_PWD:
-        print ('The password \'%s\' is a weak password.') % password
+        print ('The password \'%s\' is a weak password.' % password)
     elif result == STRONG_PWD:
-        print ('The password \'%s\' is a strong password.') % password
+        print ('The password \'%s\' is a strong password.' % password)
     elif result == VERY_STRONG_PWD:
-        print ('The password \'%s\' is a very strong password.') % password
+        print ('The password \'%s\' is a very strong password.' % password)
     elif result == NORMAL_PWD:
-        print ('The password \'%s\' is a so so.') % password
+        print ('The password \'%s\' is a so so.' % password)
